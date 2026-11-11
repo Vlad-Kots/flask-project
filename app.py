@@ -1,3 +1,5 @@
+# TODO: додати валідацію форми реєстрації
+# TODO: підключити базу даних
 from flask import Flask, render_template
 
 app = Flask(__name__)
