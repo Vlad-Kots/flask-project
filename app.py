@@ -13,6 +13,7 @@ def get_db():
         g.db.row_factory = sqlite3.Row
     return g.db
 
+# Закриває з'єднання з БД після запиту
 @app.teardown_appcontext
 def close_db(error):
     db = g.pop('db', None)
