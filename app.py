@@ -33,7 +33,7 @@ def index():
 
 @app.route('/register')
 def register():
-    return render_template('register.html')
+    return render_template('broken_page.html')
 
 @app.route('/login')
 def login():
