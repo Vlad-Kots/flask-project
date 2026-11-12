@@ -6,3 +6,5 @@ __pycache__/
 # Файли конфігурації IDE
 .vscode/
 .idea/
+# Локальна база даних SQLite
+app.db
